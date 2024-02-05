@@ -11,8 +11,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.container {
+    display: flex; 
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+}
 
-#subcontainer {
+.subcontainer {
     display: flex;
     padding: 20px;
     background-color: var(--secondary);
