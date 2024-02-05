@@ -24,10 +24,10 @@
     flex-direction: column;
     padding: 20px;
     background-color: rbg(255, 247, 204);
-    width: 50%;
+    width: 100%;
     margin: 5px 5px 5px 5px;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
 
 .imageContainer{
