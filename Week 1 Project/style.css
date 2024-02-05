@@ -16,17 +16,24 @@
     flex-direction: row;
     padding: 10px;
     flex-wrap: nowrap;
+    background-color: var(--primary);
 }
 
 .subcontainer {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: var(--secondary);
+    background-color: rbg(255, 247, 204);
     width: 40px;
     margin: 5px 5px 5px 5px;
     justify-content: center;
     text-align: center;
+}
+
+.imageContainer{
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    width: 40%;
 }
 
 p {
