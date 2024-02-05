@@ -1,0 +1,28 @@
+* {
+    padding: 1;
+    margin: 1;
+}
+
+:root {
+    --secondary: rbg(255, 247, 204);
+    --primary: rgb(255, 165, 0);
+    background-color: var(--primary);
+    color: ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+#subcontainer {
+    display: flex;
+    padding: 20px;
+    background-color: var(--secondary);
+    width: 40%;
+    margin: 5px 5px 5px 5px;
+}
+
+p {
+  text-color: black;
+  padding: 10px 0 10px 0;
+}
+
+
