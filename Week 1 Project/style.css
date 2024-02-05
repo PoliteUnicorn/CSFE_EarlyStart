@@ -1,46 +1,50 @@
 * {
-    padding: 1;
-    margin: 1;
+  padding: 1;
+  margin: 1;
 }
 
 :root {
-    --secondary: rgb(255, 247, 204);
-    --primary: rgb(255, 165, 0);
-    background-color: var(--primary);
-    color: ;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  --secondary: rgb(255, 247, 204);
+  --primary: rgb(255, 165, 0);
+  background-color: var(--primary);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .container {
-    display: flex; 
-    flex-direction: row;
-    padding: 10px;
-    flex-wrap: wrap;
-    background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+  background-color: var(--primary);
 }
 
 .subcontainer {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    background-color: rgb(255, 247, 204);
-    width: 100%;
-    margin: 5px 5px 5px 5px;
-    justify-content: center;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(255, 247, 204);
+  width: 40%;
+  margin: 5px 5px 5px 5px;
+  justify-content: center;
+  text-align: left;
 }
 
-.imageContainer{
-    display: flex;
-    flex-direction: column;
-    margin: 5px 5px 5px 5px;
-    justify-content: center;
-    width: 100%;
-    background-color: var(--secondary);
-    
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 5px 5px 5px;
+  width: 100%;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+
+  background-color: var(--secondary);
 }
 
 p {
-  text-color: black;
+  color: black;
   padding: 10px 0 10px 0;
 }
