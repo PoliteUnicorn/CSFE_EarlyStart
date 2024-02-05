@@ -4,7 +4,7 @@
 }
 
 :root {
-    --secondary: rbg(255, 247, 204);
+    --secondary: rgb(255, 247, 204);
     --primary: rgb(255, 165, 0);
     background-color: var(--primary);
     color: ;
