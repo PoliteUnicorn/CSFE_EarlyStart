@@ -25,6 +25,8 @@
     background-color: var(--secondary);
     width: 40px;
     margin: 5px 5px 5px 5px;
+    justify-content: center;
+    text-align: center;
 }
 
 p {
