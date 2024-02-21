@@ -1,0 +1,23 @@
+.textbox {
+  background-color: antiquewhite;
+  height: 10%;
+  width: 30%;
+  border-color: black;
+}
+
+.row {
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.button {
+  background-color: greenyellow;
+  border-color: green;
+  border-radius: 30%;
+  border-width: 3px;
+}
+
+.page {
+  background-color: aliceblue;
+}
